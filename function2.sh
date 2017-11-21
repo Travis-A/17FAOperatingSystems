@@ -1,10 +1,13 @@
 #!/bin/bash
 
-fun() {
-echo "Mr.Bernard is great."
-
-read -p "Why do we got to operating systems class? " why
+awe() {
+why="Because Linux is Awesome!"
+echo "Why do we use Linux? "
+echo $why
+echo "Why does Linux run the Internet? "
+echo $why
+echo "Why are we using Linux in this class? "
 echo $why
 }
 
-fun
+awe

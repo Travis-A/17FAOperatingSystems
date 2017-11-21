@@ -1,11 +1,12 @@
 #!/bin/bash
 
-read -p "Enter a number:" num
+read -p "Enter a number between 1 and 20." num
 
 
-if [ $num -lt 100 ]
+if [ $num -le 10 ]
 then
-	echo "$num is less than 100"
+
+	echo "Your number is 10 or less"
 else 
-	echo "$num is greater than 100"
+	echo "Your number is greater than 10"
 fi

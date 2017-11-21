@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for movejpg in $(find ~/Pictures/ -name *.jpg)
+for movejpg in $(find ~/Documents/ -name *.jpg)
 do
-	cp $movejpg ~/Documents/
+	mv $movejpg ~/Pictures/
 done
